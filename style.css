@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.center{
+    margin: 0 auto;
+    width: calc(100% - 25%);
+}
+
+p {
+    line-height: 25px;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+/* CABECALHO */
+.top{
+    background-color: #4711C1;
+    width: 100%;
+}
+
+.content-top{
+    max-height: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 2rem 0;
+    
+}
+
+.content-top span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+.content-top nav a{
+    padding: 0.25rem 1rem;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #4B2E83;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/*FIM CABECALHO*/
+
+/* MAIN CONTENT   */
+main img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#disponibilidade img{
+    margin: 1.2rem auto;
+}
+
+#sinopse p:last-child{
+    margin-bottom: 2.5rem;
+}
+
+.imagens-overflow{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+.imagens-overflow img{
+    width: 22rem;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 10px;
+}
+
+footer{
+    background-color: #4B2E83;
+    text-align: center;
+    width: 100%;
+}
+
+footer .center{
+    
+    padding: 0.8rem
+    
+}
+footer span{
+    
+    font-size: 1.1rem;
+    
+    color: #fff;
+    
+}
+
+@media screen and (max-width:689px) {
+
+    .content-top span{
+        display: none;
+    }
+
+    .content-top{
+        max-height: 2.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 1rem 0;
+        
+    }
+
+    .content-top nav a{
+        padding: 0.25rem 0.5rem;
+        background-color: #fff;
+        border-radius: 30px;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #4B2E83;
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+}
+    
